@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color:#1B1B1B
+	}
+	
+	.menucontact {
+		color: #fff;
+		background-color: rgba(243,74,77,1.00);
+		border-left: 1px solid rgba(0, 0, 0, 0.35);
+		border-right: 1px solid rgba(0, 0, 0, 0.35);
+		}
+		
+		.menucontact:hover {
+		background-color: #df393b;
+		color: #fff; 
+		}
+	
+
+
+/*NAVIGATION OVER*/
+
+h1 {
+	font-size: 5em;
+	font-family: "Proxima Nova";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+}
+
+h3 {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+	margin-left: 74px;
+	margin-bottom: -10px;
+	color: #FFFFFF;
+}
+
+p {
+	font-size: 16px;
+	font-family: "Proxima Nova";
+	color: hsla(0,0%,100%,0.50);
+	font-weight: regular;
+	text-shadow: 0px 1px hsla(0,0%,100%,0.30);
+	margin-left: 75px;
+	line-height: 24px;
+}
+
+/*MAIN IMAGE*/
+
+.mainfeature {
+	background-image: url(../../images/d-bg-contact.jpg);
+	background-attachment: fixed;
+	background-position: center bottom;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 150px;
+}
+
+/*MESSAGE*/
+
+.bigmessage {
+	display: inline-block;
+	margin-bottom: -40px;
+	width: 384px;
+	line-height: 69px;
+	margin-right: 5%;
+	margin-top: 60px;
+}
+
+.smallmessage {
+	font-size: 20px;
+	font-family: "Proxima Nova";
+	color: #ebebeb;
+	font-weight: 500;
+	text-shadow: 0px 1px hsla(0,0%,0%,0.40);
+	width: 186px;
+	line-height: 1.3em;
+	margin-left: 10px;
+}
+
+.messagewrapper {
+	float: left;
+	margin-top: 90px;
+	width: 30%;
+	padding-left: 12%;
+	margin-left: 7%;
+	height: auto;
+}
+
+/*IMAGE*/
+
+.desktopimg {
+	background-image: url(../images/d-featureimg.png);
+	background-repeat: no-repeat;
+	height: 353px;
+	display: inline;
+	float: left;
+	width: 40%;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-position: center center;
+}
+
+/*CONTACT BOX*/
+
+.contactlinkbox {
+	width: 35%;
+	float: left;
+	height: auto;
+	margin-top: 215px;
+}
+
+.emaillink {
+	background-image: url(../images/d-emaillink.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-origin: content-box;
+	padding-left: 30px;
+	background-color: hsla(0,0%,0%,0.15);
+	border-radius: 2px;
+	width: 60%;
+	border: 1px solid hsla(0,0%,0%,0.20);
+	margin-bottom: 30px;
+	padding-right: 30px;
+	min-width: 330px;
+}
+
+.linkedinlink{
+	background-image: url(../images/d-linkedinlink.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-origin: content-box;
+	padding-left: 30px;
+	background-color: hsla(0,0%,0%,0.15);
+	border-radius: 2px;
+	width: 60%;
+	border: 1px solid hsla(0,0%,0%,0.20);
+	padding-right: 30px;
+	min-width: 330px;
+}
+
+.twitterlink {
+	background-image: url(../images/d-twitterlink.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-origin: content-box;
+	padding-left: 30px;
+	background-color: hsla(0,0%,0%,0.15);
+	border-radius: 2px;
+	width: 60%;
+	border: 1px solid hsla(0,0%,0%,0.20);
+	padding-right: 30px;
+	margin-top: 30px;
+	min-width: 330px;
+}
+
+.pinterestlink {
+	background-image: url(../images/d-pinterestlink.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-origin: content-box;
+	padding-left: 30px;
+	background-color: hsla(0,0%,0%,0.15);
+	border-radius: 2px;
+	width: 60%;
+	border: 1px solid hsla(0,0%,0%,0.20);
+	padding-right: 30px;
+	margin-top: 30px;
+	min-width: 330px;
+}
+	
+a {
+	text-decoration:none;
+}
+
+
+footer {
+	color: #b6b6b6;
+	font-family: "Proxima Nova", 'Helvetica', 'Arial', 'sans-serif';
+	color: rgba(255,255,255,0.35);
+	font-size: 18px;
+	background-image: url(../images/bg-footer.png);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	font-size: 14px;
+	height: auto;
+	bottom: 0px;
+	position: relative;
+	background-repeat: repeat;
+	background-attachment: scroll;
+}

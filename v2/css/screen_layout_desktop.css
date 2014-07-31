@@ -1,0 +1,375 @@
+@charset "UTF-8";
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color:#00000
+	}
+
+/*NAVIGATION OVER*/
+
+h1 {
+	font-size: 4.9em;
+	font-family: "Proxima Nova";
+	color: #34495E;
+	font-weight: 100;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+}
+
+h3 {
+	font-size: 30px;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+}
+
+p {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #929496;
+	font-weight: regular;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+}
+
+/*MAIN IMAGE*/
+
+.mainfeature {
+	background-attachment: fixed;
+	background-size: cover;
+	height: 600px;
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+
+/*MESSAGE*/
+
+.bigmessage {
+	display: inline-block;
+	float: left;
+	margin-bottom: 6px;
+	width: 182px;
+	margin-top: 7px;
+}
+
+.hi {
+	width: 90px;
+	height: auto;
+	margin-bottom: -10px;
+}
+
+.smallmessage {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #74818E;
+	font-weight: 500;
+	text-shadow: 0px 0px;
+	width: 190px;
+	line-height: 1.3em;
+}
+
+.messagewrapper {
+	float: left;
+	margin-top: 220px;
+}
+
+.guilherme {
+	display: inline;
+	font-weight: 700;
+}
+
+/*IMAGE*/
+
+.desktopimg {
+	background-image: url(../images/d-featureimg.png);
+	background-repeat: no-repeat;
+	height: 452px;
+	display: inline;
+	float: right;
+	width: 685px;
+	margin-top: 150px;
+	margin-right: 90px;
+}
+
+.portfoliobg:hover {
+	background-color: #000;
+	}
+
+.lowersection {
+	background-repeat: repeat;
+	margin-bottom: -19px;
+	padding-top: 50px;
+	height: 400px;
+	border-top: 1px solid #FFFFFF;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.lowerbuttonswrapper {
+	text-align: center;
+	height: auto;
+	padding-bottom: 35px;
+	margin-top: -52px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.featurecontentwrapper {
+	display: run-in;
+}
+
+/*PROFILE*/
+
+.profilebutton {
+	background-image: url(../images/d-profileimg.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 160px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	display:none;
+}
+
+.profilebutton h3 {
+	color: #60c0eb;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 45px;
+}
+
+/*PROFILE END*/
+
+
+
+/*PORTFOLIO START*/
+
+.portfoliobutton {
+	background-image: url(../images/d-portfolioimg.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	text-align: center;
+	display: none;
+	min-width: 220px;
+	height: 200px;
+	margin-top: 48px;
+	margin-right: 10%;
+}
+
+.portfoliobg {
+	background-image: url(../images/d-bg-portfolio.jpg);
+	width: 100%;
+	background-position: center bottom;
+	background-size: cover;
+	height: 300px;
+	margin-top: -130px;
+		margin: auto;
+}
+
+.portfoliobg h3 {
+	font-size: 5em;
+	font-family: "Proxima Nova";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	text-align: left;
+	padding-top: 104px;
+}
+
+.portfoliobg p {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: hsla(0,0%,100%,0.70);
+	font-weight: regular;
+	text-shadow: 0px 0px;
+	text-align: left;
+	width: 90%;
+max-width: 1200px;
+	margin-top: -79px;
+	margin: auto;
+	padding-left: 10px;
+}
+
+/*PORTFOLIO END*/
+
+/*CONTACT START*/
+
+.contactbutton {
+	background-image: url(../images/d-contact.png);
+	display: none;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 280px;
+	padding-left: 70px;
+	text-align: center;
+	width: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #fff;
+	/* [disabled]float: left; */
+float: left;
+}
+
+.contactbutton h3 {
+	color: #47d9bf;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 45px;
+
+}
+
+.contactbg h3 {
+	font-size: 3.5em;
+	font-family: "Proxima Nova";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+	margin-left: 20%;
+	text-align: left;
+	padding-top: 57px;
+	margin-top: 40px;
+}
+
+.contactbg p {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: hsla(0,0%,100%,0.70);
+	font-weight: regular;
+	text-shadow: 0px 0px;
+	text-align: left;
+	margin-left: 21%;
+	margin-top: -50px;
+}
+.contactbg {
+	background-image: url(../images/d-bg-contact.jpg);
+	width: 50%;
+	background-position: left bottom;
+	background-size: cover;
+	height: 260px;
+	margin-top: 0px;
+	float: right;
+}
+
+
+@media screen and (min-width: 1300px) {
+	
+	.profiletext {
+		left: 1px;
+		width: 200px;
+		float: right;
+		margin-right: 420px;
+	}
+}
+
+.profilebg h3 {
+	font-size: 3.5em;
+	font-family: "Proxima Nova";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+	margin-left: 10%;
+	text-align: left;
+padding-top: 57px;
+margin-top: 40px;
+	max-width: 200px;
+}
+
+.profilebg p {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: hsla(0,0%,100%,0.70);
+	font-weight: regular;
+	text-shadow: 0px 0px;
+	text-align: left;
+	margin-left: 10%;
+	margin-top: -50px;
+	max-width: 500px;
+
+}
+
+.profilebg {
+	background-image: url(../images/d-bg-profile.jpg);
+	width: 50%;
+	background-position: right top;
+	background-size: cover;
+	height: 260px;
+	margin-top: 0px;
+	float: left;
+
+}
+
+
+/*CONTACTS END*/
+
+footer {
+	color: #b6b6b6;
+	font-family: "Proxima Nova", 'Helvetica', 'Arial', 'sans-serif';
+	color: rgba(255,255,255,0.35);
+	font-size: 18px;
+	background-image: url(../images/bg-footer.png);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	font-size: 14px;
+	height: auto;
+	bottom: 0px;
+	position: relative;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	margin-top: 120px;
+}
+
+a {
+	text-decoration:none;
+}
+
+/*
+CSS for high-resolution devices
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .profilebutton {
+	background-image: url(../images/d-profileimg@2x.png);
+	background-size: 157px 158px;
+}
+
+ .portfoliobutton {
+	background-image: url(../images/d-portfolioimg@2x.png);
+	background-size: 207px 208px;
+ }
+ 
+.contactbutton {
+	background-image: url(../images/d-contactimg@2x.png);
+	background-size: 157px 158px;
+}
+
+.desktopimg {
+	background-image:url(../images/d-featureimg@2x.png);
+	background-size: 684px 452px;
+}
+
+.menuprofile {
+	background-image:url(../images/d-nav-profile@2x.png);
+	background-size: 39px 41px;
+}
+
+.menuportfolio {
+		background-image:url(../images/d-nav-portfolio@2x.png);
+	background-size: 39px 41px;
+}
+
+.menucontact {
+		background-image:url(../images/d-nav-email@2x.png);
+	background-size: 39px 41px;
+}
+*/

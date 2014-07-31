@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+/* Layout Small Screens */
+
+body {
+	margin: auto;
+	background-color:#1B1B1B
+}
+
+/*TEXT*/
+
+h1 {
+	font-size: 3.0em;
+	font-family: "Proxima Nova";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+	text-shadow: 0px 1px;
+	margin-bottom: 45px;
+	line-height: 50px;
+	margin-top: 45px;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: "Proxima Nova";
+	font-weight: 400;
+	text-shadow: 0px 1px hsla(0,0%,100%,0.50);
+	margin-bottom: 10px;
+	color: hsla(0,0%,100%,0.85);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	top: 10%;
+}
+
+h3 {
+	font-size: 16px;
+	font-family: "Proxima Nova";
+	font-weight: normal;
+	text-shadow: 0px 1px #FFFFFF;
+text-shadow: 0px 1px #FFFFFF;
+color: rgba(127, 140, 141,1.0);
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+p {
+	font-size: 14px;
+	font-family: "Proxima Nova";
+	color: hsla(0,0%,100%,0.70);
+	font-weight: regular;
+	text-shadow: 0px 1px hsla(0,0%,0%,0.30);
+	line-height: 25px;
+}
+
+
+/*MAIN IMAGE*/
+.mainfeature {	
+	background-size: cover;
+	background-position: center bottom;
+	padding-bottom: 35px;
+}
+
+#project0 {
+	background-image: url(../images/projectmisc/d-bg-project0.jpg);
+}
+
+#project1 {
+	background-image: url(../images/project1/d-bg-project1.jpg);
+	margin-top: 0px;
+}
+
+#project2 {
+	background-image: url(../images/project2/d-bg-project2.jpg);
+}
+
+#project3 {
+	background-image: url(../images/project3/d-bg-project3.jpg);
+}
+
+#project4 {
+	background-image: url(../images/project4/d-bg-project4.jpg);
+}
+
+#project5 {
+	background-image: url(../images/project5/d-bg-project5.jpg);
+}
+
+#project6 {
+	background-image: url(../images/project6/d-bg-project6.jpg);
+}
+
+#project7 {
+	background-image: url(../images/project7/d-bg-project7.jpg);
+}
+
+
+/*MESSAGE*/
+
+.bigmessage {
+	display: inline-block;
+	text-align: left;
+	margin-bottom: -30px;
+	margin-top: -25px;
+	width: 90%;
+}
+
+.smallmessage {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #ebebeb;
+	font-weight: 500;
+	text-shadow: 0px 1px hsla(0,0%,0%,0.70);
+	width: 220px;
+	line-height: 1.3em;
+	text-align: center;
+		padding-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.messagewrapper {
+	text-align: center;
+	padding-left: 0%;
+	float: left;
+	padding-top: 50px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+
+
+/*IMG FEATURE*/
+
+.desktopimg {
+	background-image: url(../images/d-featureimg.png);
+	background-repeat: no-repeat;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center top;
+	clear: both;
+	padding-top: 231px;
+	background-size: contain;
+	max-width: 322px;
+}
+
+
+.lowersection {
+	background-color: #fff;
+	background-repeat: repeat;
+	padding-top: 20px;
+	height: auto;
+	border-top: 1px solid #FFFFFF;
+	padding-bottom: 20px;
+}
+
+.projectid {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.cardinfo {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -6px;
+background-color: rgba(236, 240, 241,0.3);
+border-top: 1px solid hsla(0,0%,0%,0.20);
+border-right: 1px solid hsla(0,0%,0%,0.05);
+border-left: 1px solid hsla(0,0%,0%,0.05);
+border-bottom: 1px solid hsla(0,0%,0%,0.05);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	width: 89.7%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#viewmorebutton {
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	margin: auto;
+	background-color: hsla(239, 0%, 100%, 1);
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-transform: uppercase;
+	background-color:rgba(243,74,77,1.00);
+		color: #fff;
+	border-radius: 30px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#viewmorebutton:hover {
+	background-color: #df393b;
+	color: #fff;
+}
+
+#viewmorebutton a {
+	color: #fff;
+}
+
+
+.infowrapper {
+	text-align: center;
+	margin-top: 10px;
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.infoblock {
+	text-align: center;
+	margin-top: 36px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 65px;
+}
+
+.imggallery {
+	width: 90%;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+a {
+	text-decoration:none;
+}

@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+/* Layout Small Screens */
+
+body {
+	margin: auto;
+	background-color: #fff;
+	}
+
+.menuportfolio {
+	color: #fff;
+	background-color: rgba(243,74,77,1.00);
+	border-right
+	: 1px solid rgba(0, 0, 0, 0.35);
+	border-left: 1px solid rgba(0, 0, 0, 0.35);
+	}
+	
+	.menuportfolio:hover {
+	background-color: #df393b;
+	color: #fff; 
+	}
+
+/*TEXT*/
+
+h1 {
+	font-size: 4em;
+	font-family: "Proxima Nova";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+	text-shadow: 0px 1px;
+}
+
+h3 {
+	font-size: 25px;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+	margin-top: 10px;
+	margin-bottom: -5px;
+	text-transform: uppercase;
+	color: #F2494B;
+}
+
+p {
+	font-size: 14px;
+	font-family: "Proxima Nova";
+	color: #929496;
+	font-weight: regular;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+	margin-top: 15px;
+}
+
+
+/*MAIN IMAGE*/
+.mainfeature {
+	background-image: url(../images/d-bg-feature.jpg);
+	background-attachment: scroll;
+	background-size: cover;
+	width: auto;
+	height: 360px;
+	margin-top: 60px;
+	background-position: 0% bottom;
+	max-width: none;
+}
+
+
+/*MESSAGE*/
+
+.bigmessage {
+	display: inline-block;
+	margin-bottom: -61px;
+	text-align: center;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.smallmessage {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #ebebeb;
+	font-weight: 200;
+	text-shadow: 0px 0px;
+	width: 220px;
+	line-height: 1.3em;
+	text-align: center;
+	/* [disabled]padding-left: 34%; */
+	padding-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+}
+
+.messagewrapper {
+	text-align: center;
+	padding-left: 0%;
+	float: left;
+	margin-top: 30px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.guilherme {
+	display: inline;
+	font-weight: bold;
+}
+
+/*IMG FEATURE*/
+
+.desktopimg {
+	background-repeat: no-repeat;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center top;
+	clear: both;
+	padding-top: 231px;
+	background-size: contain;
+	max-width: 277px;
+	width: 183px;
+}
+
+
+.lowersection {
+	background-repeat: repeat;
+	padding-top: 28px;
+	height: auto;
+	border-top: 1px solid #FFFFFF;
+	padding-bottom: 40px;
+}
+
+
+
+
+.infowrapper {
+	text-align: center;
+	margin-top: 10px;
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.infoblock {
+	text-align: center;
+	margin-top: 36px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 65px;
+	max-width: 400px;
+}
+
+.imggallery {
+	width: 90%;
+	text-align: center;
+}
+
+a {
+	text-decoration:none;
+}

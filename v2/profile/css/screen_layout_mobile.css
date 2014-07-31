@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	}
+
+.menuprofile {
+	background-color: rgba(243,74,77,1.00);
+	color: #fff;
+}
+
+.menuprofile {
+	color: #fff;
+	background-color: rgba(243,74,77,1.00);
+	border-left: 1px solid rgba(0, 0, 0, 0.35);
+	border-right: 1px solid rgba(0, 0, 0, 0.35);
+	}
+	
+	.menuprofile:hover {
+	background-color: #df393b;
+	color: #fff; 
+	}
+
+
+/*TEXT*/
+
+h1 {
+	font-size: 5em;
+	font-family: "Proxima Nova";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+}
+
+h3 {
+	font-size: 25px;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+	margin-top: 8px;
+	margin-bottom: -5px;
+}
+
+p {
+	font: 14px/23px "Proxima Nova";
+	color: #929496;
+	font-weight: regular;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+	margin-top: 15px;
+}
+
+
+/*MAIN IMAGE*/
+.mainfeature {
+	background-image: url(../images/d-bg-feature.jpg);
+	background-attachment: scroll;
+	background-size: cover;
+	width: auto;
+	height: 440px;
+	margin-top: 60px;
+	background-position: right center;
+}
+
+
+/*MESSAGE*/
+
+.bigmessage {
+	display: inline-block;
+	margin-bottom: -61px;
+	text-align: center;
+	margin-top: -52px;
+	width: 100%;
+}
+
+.smallmessage {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #ebebeb;
+	font-weight: 500;
+	text-shadow: 0px 0px;
+	width: 200px;
+	line-height: 1.3em;
+	text-align: center;
+	/* [disabled]padding-left: 34%; */
+	padding-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.messagewrapper {
+	text-align: center;
+	padding-left: 0%;
+	float: left;
+	margin-top: 30px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.guilherme {
+	display: inline;
+	font-weight: bold;
+}
+
+/*IMG FEATURE*/
+
+.desktopimg {
+	background-image: url(../images/d-featureimg.png);
+	background-repeat: no-repeat;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center top;
+	clear: both;
+	padding-top: 231px;
+	background-size: contain;
+	max-width: 322px;
+}
+
+
+.lowersection {
+background-color: #fff;
+	background-repeat: repeat;
+	padding-top: 28px;
+	height: auto;
+	border-top: 1px solid #FFFFFF;
+	padding-bottom: 40px;
+}
+
+
+
+
+.infowrapper {
+	text-align: center;
+	margin-top: 10px;
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.infoblock {
+	text-align: left;
+	margin-top: 36px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 36px;
+	min-width: 300px;
+	max-width: 350px;
+}
+
+.sideinfo {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #73757A;
+	font-weight: bold;
+	width: 100px;
+	line-height: 1.1em;
+	/* [disabled]margin-bottom: -6px; */
+	}
+	
+
+/*ACADEMIC*/
+
+.academicicon {
+	background-image: url(../images/d-academic.png);
+	background-position: center center;
+	width: 100%;
+	height: 108px;
+	background-repeat: no-repeat;
+}
+
+/*PROFILE*/
+
+.profileicon {
+	background-image:url(../images/d-profile.png);
+	background-position:center center;
+	width: 100%;
+	height: 108px;
+	background-repeat:no-repeat;
+}
+
+/*SKILLS*/
+.skillsicon {
+	background-image:url(../images/d-skills.png);
+	background-position:center center;
+	width: 100%;
+	height: 108px;
+	background-repeat:no-repeat;
+}
+
+p.skills {
+	line-height: 30px;
+}
+
+/*WORK*/
+.workicon {
+	background-image:url(../images/d-work.png);
+	background-position:center center;
+	width: 100%;
+	height: 108px;
+	background-repeat:no-repeat;
+}
+
+/*RESUME*/
+.resumewrapper {
+	width: auto;
+	height: auto;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: none;
+}
+
+.resumeicon {
+	background-image: url(../images/d-resumeimg.png);
+	background-repeat: no-repeat;
+	color: rgba(243,74,77,1.00);
+	background-position: 10px center;
+	background-size: contain;
+	padding-top: 37px;
+	margin-top: 27px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 36px;
+	min-width: 300px;
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+}
+
+.resumeinfo {
+	margin-left: 150px;
+	font-size: 18px;
+	font-family: "Proxima Nova", 'Helvetica', 'Arial', 'sans-serif';
+	color: #73757A;
+	font-weight: bold;
+	line-height: 1.1em;
+	margin-bottom: 10px;
+	margin-top: -17px;
+}
+
+.resumelink {
+	font-size: 20px;
+	margin-left: 150px;
+	color: rgba(243,74,77,1.00)
+}
+
+a {
+	text-decoration:none;
+}

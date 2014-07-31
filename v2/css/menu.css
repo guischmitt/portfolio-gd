@@ -1,0 +1,295 @@
+@charset "UTF-8";
+
+.menucontact:hover {
+	background-color: #df393b;
+	color: #fff;
+}
+
+.menuportfolio:hover {
+	background-color: #df393b;
+	color: #fff;
+}
+
+.menuprofile:hover {
+	background-color: #df393b;
+	color: #fff;
+}
+
+
+
+/*DESKTOP */
+
+@media only screen and (min-width:1130px) {
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color:#00000
+	}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	top: 0px;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.10);
+	border-bottom: 1px solid hsla(0,0%,0%,0.10);
+	background-color: hsla(239, 0%, 100%, 0.9);
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.10);
+}
+
+#navbarwrapper {
+max-width: 1200px;
+width: 90%;
+margin: auto;
+}
+
+.homelogo {
+	background-image: url(../images/d-nav-logo.png);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left 0%;
+	background-size: contain;
+	height: 61px;
+	width: 380px;
+	float: left;
+}
+
+
+.homelogo h1 {
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 95px;
+	text-shadow: 0px 0px;
+	color: hsla(208,13%,39%,1.00);
+	width: 0px;
+	line-height: 16px;
+}
+
+.menuportfolio {
+	display: table;
+	float: right;
+	color: rgba(243,74,77,1.00);
+	padding: 21px 55px;
+	}
+	
+
+
+.menuprofile {
+	display: table;
+	float: right;
+	color: rgba(243,74,77,1.00);
+	padding: 21px 55px;
+}
+
+
+
+.menucontact {
+	display: table;
+	float: right;
+	color: #fff;
+	color: rgba(243,74,77,1.00);
+	padding: 21px 55px;
+
+}
+
+
+
+
+footer {
+	font-family: "Proxima Nova", 'Helvetica', 'Arial', 'sans-serif';
+	color: rgba(44, 62, 80,0.6);
+	font-size: 18px;
+	background-color: rgba(44, 62, 80,0.2);	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	font-size: 14px;
+	height: auto;
+	bottom: 0px;
+	position: relative;
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+
+}
+
+/*TABLET MENU*/
+
+@media only screen and (min-width:730px) and (max-width:1129px) {
+
+.navbar {
+	position: fixed;
+	background-color: hsla(239, 0%, 100%, 0.9);
+	width: 100px;
+	height: 100%;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.40);
+	border-bottom: 1px solid #000000;
+	top: 0px;
+}
+
+
+.homelogo {
+	background: url(../images/d-nav-logo.png) left / cover no-repeat;
+	position: fixed;
+	width: 100px;
+	display: block;
+	float: left;
+	height: 80px;
+}
+
+.menuportfolio {
+	color: rgba(243,74,77,1.00);
+	background-position: center top;
+	padding: 60px 17px;
+	position: fixed;
+	top: 80px;
+	border-top: 1px solid rgba(0,0,0,0.08);
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.menuprofile {
+	color: rgba(243,74,77,1.00);
+	background-position: center top;
+	padding: 60px 26px 60px 26px;
+	position: relative;
+	top: 214px;
+border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.menucontact {
+color: rgba(243,74,77,1.00);
+	background-position: center top;
+	padding: 60px 22px;
+	position: fixed;
+	top: 347px;
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+footer {
+	font-family: "Proxima Nova", 'Helvetica', 'Arial', 'sans-serif';
+	color: rgba(44, 62, 80,0.6);
+	font-size: 18px;
+	background-color: rgba(44, 62, 80,0.2);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	font-size: 14px;
+	height: auto;
+	bottom: 0px;
+	position: relative;
+	background-repeat: repeat;
+	margin-left: 100px;
+}
+
+}
+
+
+/*MOBILE MENU*/
+
+@media only screen and (min-width:50px) and (max-width:729px) {
+
+body {
+	margin: auto;
+	background-color:#1B1B1B
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	top: 0px;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.10);
+	background-color: hsla(240,4%,100%,0.90);
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.10);
+}
+
+.homelogo {
+	background-image: url(../images/d-nav-logo.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: cover;
+	position: static;
+	height: 60px;
+	display: table;
+	float: left;
+	max-width: 230px;
+	width: 80px;
+}
+
+
+.menuportfolio {
+background-repeat: no-repeat;
+background-position: center top;
+background-size: 30px 30px;
+float: right;
+color: rgba(243,74,77,1.00);
+width: 24%;
+float: right;
+padding-top: 22px;
+padding-bottom: 22px;
+	font-size: 0.8em;
+	border-left: 1px solid rgba(0,0,0,0.08);
+
+}
+
+.menuprofile {
+	float: right;
+	color: rgba(243,74,77,1.00);
+	width: 24%;
+	float: right;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	font-size: 0.8em;
+	border-left: 1px solid rgba(0,0,0,0.08);
+
+}
+
+.menucontact {
+float: right;
+color: rgba(243,74,77,1.00);
+width: 24%;
+float: right;
+padding-top: 22px;
+padding-bottom: 22px;
+	font-size: 0.8em;
+	border-left: 1px solid rgba(0,0,0,0.08);
+	border-right: 1px solid rgba(0,0,0,0.08);
+}
+
+/*FOOTER*/
+
+
+footer {
+	font-family: "Proxima Nova", 'Helvetica', 'Arial', 'sans-serif';
+	color: rgba(44, 62, 80, 0.6);
+	font-size: 18px;
+	background-color: rgba(44, 62, 80,0.2);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: auto;
+	font-size: 14px;
+	height: auto;
+	bottom: 0px;
+	position: relative;
+}
+
+}
+
