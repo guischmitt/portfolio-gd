@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+/* Layout Small Screens */
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*NAVIGATION BEGIN*/
+
+.navbar {
+	position: fixed;
+	background-color: #333845;
+	width: 100px;
+	height: 100%;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.40);
+	border-bottom: 1px solid #000000;
+	top: 0px;
+}
+
+
+.homelogo {
+	background-image: url(../images/t-nav-logo.png);
+	position: relative;
+	background-repeat: no-repeat;
+	height: 155px;
+	width: 100px;
+	display: table;
+	float: left;
+}
+
+.menuportfolio {
+	background-image: url(../images/d-nav-portfolio.png);
+	background-repeat: no-repeat;
+	float: right;
+	color: rgba(243,74,77,1.00);
+	background-position: center top;
+	padding-top: 47px;
+	margin-top: 19px;
+	position: fixed;
+	margin-left: 18px;
+	top: 190px;
+}
+
+.menuprofile {
+	background-image: url(../images/d-nav-profile.png);
+	background-repeat: no-repeat;
+	float: right;
+	color: #4DBEF1;
+	background-position: center top;
+	padding-top: 47px;
+	margin-top: 19px;
+	position: fixed;
+	margin-left: 27px;
+	top: 290px;
+}
+
+.menucontact {
+	background-image: url(../images/d-nav-email.png);
+	background-repeat: no-repeat;
+	color: #4FD9C0;
+	background-position: center top;
+	padding-top: 47px;
+	margin-top: 19px;
+	position: fixed;
+	margin-left: 23px;
+	top: 390px;
+}
+
+/*NAVIGATION OVER*/
+
+h1 {
+	font-size: 4.9em;
+	font-family: "Proxima Nova";
+	color: rgb( 235, 235, 235 );
+	font-weight: bold;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+}
+
+h3 {
+	font-size: 30px;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+	margin-bottom: -8px;
+	margin-top: 19px;
+	text-transform: uppercase;
+	color: #F2494B;
+}
+
+p {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #929496;
+	font-weight: regular;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+}
+
+/*MAIN IMAGE*/
+
+.mainfeature {
+	background-image: url(../images/d-bg-feature.jpg);
+	background-attachment: scroll;
+	background-size: cover;
+	width: auto;
+	height: 550px;
+	margin-left: 100px;
+	margin-top: -1px;
+	background-repeat: no-repeat;
+	background-position: 0% bottom;
+}
+
+/*MESSAGE*/
+
+.bigmessage {
+	display: inline-block;
+	margin-bottom: -50px;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+.smallmessage {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #ebebeb;
+	font-weight: 500;
+	text-shadow: 0px 1px hsla(0,0%,0%,0.70);
+	width: 100%;
+	line-height: 1.3em;
+	text-align: center;
+	margin-right: auto;
+}
+
+.messagewrapper {
+	margin-top: 1px;
+	width: auto;
+	text-align: center;
+	padding-left: 0%;
+}
+
+.guilherme {
+	display: inline;
+	font-weight: bold;
+}
+
+
+/*IMAGE*/
+
+.desktopimg {
+	background-image: url(../images/d-featureimg.png);
+	background-repeat: no-repeat;
+	height: 280px;
+	display: block;
+	float: none;
+	width: 100%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center top;
+	background-size: contain;
+}
+
+.lowersection {
+	background-image: url(../images/bg-white.png);
+	background-repeat: repeat;
+	padding-top: 50px;
+	margin-top: 1px;
+	margin-left: 100px;
+	padding-bottom: 51px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.infowrapper {
+	text-align: center;
+	padding-bottom: 10px;
+	width: 49.6%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.infoblock {
+	text-align: center;
+	margin-top: 30px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+/*GALLERY */
+
+.imggallery {
+	width: 93%;
+	text-align: center;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 2px 2px 0px hsla(0,0%,0%,0.20);
+	box-shadow: 0px 2px 2px 0px hsla(0,0%,0%,0.20);
+}
+
+a {
+	text-decoration:none;
+}
+
+
+footer {
+	color: #b6b6b6;
+	font-family: "Proxima Nova", 'Helvetica', 'Arial', 'sans-serif';
+	color: rgba(255,255,255,0.35);
+	font-size: 18px;
+	background-image: url(../images/bg-footer.png);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 1auto;
+	font-size: 14px;
+	height: auto;
+	bottom: 0px;
+	position: relative;
+	background-repeat: repeat;
+	margin-left: 100px;
+}

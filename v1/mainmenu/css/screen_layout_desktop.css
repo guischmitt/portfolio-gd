@@ -1,0 +1,329 @@
+@charset "UTF-8";
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color:#1B1B1B
+	}
+	
+	
+/*NAVIGATION BEGIN*/
+
+.navbar {
+	position: fixed;
+	background-color: #333845;
+	width: 100%;
+	height: 100px;
+	top: 0px;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.40);
+	border-bottom: 1px solid #000000;
+}
+
+.homelogo {
+	background-image: url(../images/d-nav-logo.png);
+	position: relative;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 270px;
+	display: table;
+	float: left;
+}
+
+.menuportfolio {
+	background-image: url(../images/d-nav-portfolio.png);
+	background-repeat: no-repeat;
+	display: table;
+	float: right;
+	color: rgba(243,74,77,1.00);
+	background-position: center top;
+	padding-top: 47px;
+	margin-top: 19px;
+	margin-left: 55px;
+	margin-right: 55px;
+}
+
+.menuprofile {
+	background-image: url(../images/d-nav-profile.png);
+	background-repeat: no-repeat;
+	display: table;
+	float: right;
+	color: #4DBEF1;
+	background-position: center top;
+	padding-top: 47px;
+	margin-top: 19px;
+}
+
+.menucontact {
+	background-image: url(../images/d-nav-email.png);
+	background-repeat: no-repeat;
+	display: table;
+	float: right;
+	color: #4FD9C0;
+	background-position: center top;
+	padding-top: 47px;
+	margin-top: 19px;
+	margin-right: 55px;
+}
+
+/*NAVIGATION OVER*/
+
+h1 {
+	font-size: 4.9em;
+	font-family: "Proxima Nova";
+	color: rgb( 235, 235, 235 );
+	font-weight: bold;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+}
+
+h3 {
+	font-size: 30px;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+}
+
+p {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #929496;
+	font-weight: regular;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+}
+
+/*MAIN IMAGE*/
+
+.mainfeature {
+	background-image: url(../images/d-bg-feature.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 500px;
+	margin-top: 100px;
+}
+
+/*MESSAGE*/
+
+.bigmessage {
+	display: inline-block;
+	float: left;
+	margin-bottom: -50px;
+	width: 165px;
+}
+
+.smallmessage {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #ebebeb;
+	font-weight: 500;
+	text-shadow: 0px 1px hsla(0,0%,0%,0.70);
+	width: 186px;
+	line-height: 1.3em;
+}
+
+.messagewrapper {
+	float: left;
+	margin-top: 120px;
+}
+
+.guilherme {
+	display: inline;
+	font-weight: bold;
+}
+
+/*IMAGE*/
+
+.desktopimg {
+	background-image: url(../images/d-featureimg.png);
+	background-repeat: no-repeat;
+	height: 452px;
+	display: inline;
+	float: right;
+	width: 685px;
+	margin-top: 48px;
+	margin-right: 5%;
+}
+
+.lowersection {
+	background-image: url(../images/bg-white.png);
+	background-repeat: repeat;
+	margin-bottom: -19px;
+	padding-top: 50px;
+	/* [disabled]margin-top: 1px; */
+	height: 400px;
+	border-top: 1px solid #FFFFFF;
+}
+
+.lowerbuttonswrapper {
+	text-align: center;
+	margin-left: 31px;
+	height: auto;
+	padding-bottom: 35px;
+	margin-top: 30px;
+}
+
+.projectname {
+	background-color: hsla(0,0%,0%,0.60);
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-family: "Proxima Nova";
+	color: hsla(0,0%,100%,1.00);
+	font-weight: normal;
+	font-size: 1em;
+	text-align: center;
+	float: right;
+	clear: right;
+	margin-top: -43px;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+	border: 1px solid #000000;
+}
+
+.featurecontentwrapper {
+	width: 90%;
+	max-width: 900pt;
+	min-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	/* [disabled]height: auto; */
+	display: run-in;
+}
+
+/*PROFILE*/
+
+.profilebutton {
+	background-image: url(../images/d-profileimg.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 160px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+
+.profilebutton h3 {
+	color: #60c0eb;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 45px;
+}
+
+/*PROFILE END*/
+
+
+
+/*PORTFOLIO START*/
+
+.portfoliobutton {
+	background-image: url(../images/d-portfolioimg.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 160px;
+	text-align: center;
+	display: inline-block;
+	min-width: 220px;
+	margin-bottom: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: auto;
+}
+
+.portfoliobutton h3 {
+	color: #f54747;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 75px;
+}
+
+/*PORTFOLIO END*/
+
+/*CONTACT START*/
+
+.contactbutton {
+	background-image: url(../images/d-contactimg.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 160px;
+	text-align: center;
+	display: inline-block;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	/* [disabled]float: left; */
+}
+
+.contactbutton h3 {
+	color: #47d9bf;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 45px;
+}
+
+/*CONTACTS END*/
+
+footer {
+	color: #b6b6b6;
+	font-family: "Proxima Nova", 'Helvetica', 'Arial', 'sans-serif';
+	color: rgba(255,255,255,0.35);
+	font-size: 18px;
+	background-image: url(../images/bg-footer.png);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	font-size: 14px;
+	height: auto;
+	bottom: 0px;
+	position: relative;
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+/* CSS for high-resolution devices */
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .profilebutton {
+	background-image: url(../images/d-profileimg@2x.png);
+	background-size: 157px 158px;
+}
+
+ .portfoliobutton {
+	background-image: url(../images/d-portfolioimg@2x.png);
+	background-size: 207px 208px;
+ }
+ 
+.contactbutton {
+	background-image: url(../images/d-contactimg@2x.png);
+	background-size: 157px 158px;
+}
+
+.desktopimg {
+	background-image:url(../images/d-featureimg@2x.png);
+	background-size: 684px 452px;
+}
+
+.menuprofile {
+	background-image:url(../images/d-nav-profile@2x.png);
+	background-size: 39px 41px;
+}
+
+.menuportfolio {
+		background-image:url(../images/d-nav-portfolio@2x.png);
+	background-size: 39px 41px;
+}
+
+.menucontact {
+		background-image:url(../images/d-nav-email@2x.png);
+	background-size: 39px 41px;
+}
+
+}

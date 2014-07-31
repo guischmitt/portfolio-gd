@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color:#1B1B1B
+	}
+	
+	
+/*NAVIGATION BEGIN*/
+
+.navbar {
+	position: fixed;
+	background-color: #333845;
+	width: 100%;
+	height: 100px;
+	top: 0px;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.40);
+	border-bottom: 1px solid #000000;
+}
+
+.homelogo {
+	background-image: url(../images/d-nav-logo.png);
+	position: relative;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 270px;
+	display: table;
+	float: left;
+}
+
+.menuportfolio {
+	background-image: url(../images/d-nav-portfolio.png);
+	background-repeat: no-repeat;
+	display: table;
+	float: right;
+	color: rgba(243,74,77,1.00);
+	background-position: center top;
+	padding-top: 47px;
+	margin-top: 19px;
+	margin-left: 55px;
+	margin-right: 55px;
+}
+
+.menuprofile {
+	background-image: url(../images/d-nav-profile.png);
+	background-repeat: no-repeat;
+	display: table;
+	float: right;
+	color: #4DBEF1;
+	background-position: center top;
+	padding-top: 47px;
+	margin-top: 19px;
+}
+
+
+.menucontact {
+	background-image: url(../images/d-nav-email.png);
+	background-repeat: no-repeat;
+	display: table;
+	float: right;
+	color: #4FD9C0;
+	background-position: center top;
+	padding-top: 47px;
+	margin-top: 19px;
+	margin-right: 55px;
+}
+
+/*NAVIGATION OVER*/
+
+h1 {
+	font-size: 4.9em;
+	font-family: "Proxima Nova";
+	color: rgb( 235, 235, 235 );
+	font-weight: bold;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+}
+
+h3 {
+	font-size: 1.6em;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-transform: uppercase;
+	color: #F2494B;
+}
+
+p {
+	font-size: 16px;
+	font-family: "Proxima Nova";
+	color: #929496;
+	font-weight: regular;
+	text-shadow: 0px 1px rgb(255, 255, 255);
+	margin-left: 75px;
+	line-height: 24px;
+}
+
+/*MAIN IMAGE*/
+
+.mainfeature {
+	background-image: url(../images/d-bg-feature.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 500px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+/*MESSAGE*/
+
+.bigmessage {
+	display: inline-block;
+	margin-bottom: -50px;
+	width: 384px;
+	line-height: 69px;
+	margin-right: 5%;
+	background-attachment: scroll;
+}
+
+.smallmessage {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #ebebeb;
+	font-weight: 500;
+	text-shadow: 0px 1px hsla(0,0%,0%,0.70);
+	width: 214px;
+	line-height: 1.3em;
+	margin-left: 4px;
+}
+
+.messagewrapper {
+	float: left;
+	margin-top: 120px;
+	width: 30%;
+	padding-left: 12%;
+	margin-left: 7%;
+}
+
+/*IMAGE*/
+
+.desktopimg {
+	background-image: url(../images/d-featureimg.png);
+	background-repeat: no-repeat;
+	height: 353px;
+	display: inline;
+	float: left;
+	width: 40%;
+	margin-top: 75px;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-position: center center;
+}
+
+/*LOWERSECTION*/
+
+.lowersection {
+	background-image: url(../images/bg-white.png);
+	background-repeat: repeat;
+	padding-top: 70px;
+	border-top: 1px solid #FFFFFF;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	background-attachment: scroll;
+}
+
+/*PORTFOLIO GALLERY*/
+
+.infowrapper {
+	padding-bottom: 35px;
+	width: 33%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.infoblock {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+.cardsmargin {
+	max-width: 1300px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cardswrapper{
+	margin: auto;
+	display: block;
+}
+
+.imggallery {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	list-style-type: none;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 2px 2px 0px hsla(0,0%,0%,0.20);
+	box-shadow: 0px 2px 2px 0px hsla(0,0%,0%,0.20);
+}
+
+.imggallery:hover {
+	box-shadow: 0 2px 15px 2px hsla(0,0%,0%,0.20);
+	transform: scale(1.10) translateY(-5px);
+	z-index: 1;
+	border-bottom: 0 none;
+
+	-webkit-box-shadow: 0 2px 15px 2px hsla(0,0%,0%,0.20);
+}
+
+a {
+	text-decoration:none;
+}
+	
+
+footer {
+	color: #b6b6b6;
+	font-family: "Proxima Nova", 'Helvetica', 'Arial', 'sans-serif';
+	color: rgba(255,255,255,0.35);
+	font-size: 18px;
+	background-image: url(../images/bg-footer.png);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	font-size: 14px;
+	height: auto;
+	bottom: 0px;
+	position: relative;
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
