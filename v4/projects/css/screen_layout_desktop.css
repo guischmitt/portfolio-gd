@@ -1,0 +1,419 @@
+@charset "UTF-8";
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color:#fff;
+	}	
+	
+
+/*NAVIGATION OVER*/
+
+h1 {
+	font-size: 3.9em;
+	font-family: "Proxima Nova";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-family: "Proxima Nova";
+	font-weight: 500;
+	margin-bottom: 10px;
+	color: hsla(0,0%,100%,0.85);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	top: 10%;
+}
+
+h3 {
+	font-size: 1.4em;
+	font-family: "Proxima Nova";
+	font-weight: normal;
+	color: rgba(127, 140, 141,1.0);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	font-size: 16px;
+	font-family: "Proxima Nova";
+	color: hsla(0,0%,100%,0.70);
+	font-weight: regular;
+	line-height: 29px;
+}
+
+a {
+	text-decoration:none;
+}
+
+/*MAIN IMAGE*/
+
+.mainfeature {
+	background-attachment: fixed;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-position: center top;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	visibility: visible;
+	background-size: cover;
+}
+
+#project0 {
+	background-image: url(../images/projectmisc/d-bg-project0.jpg);
+}
+
+#project1 {
+	background-image: url(../images/project1/d-bg-project1.jpg);
+}
+
+#project2 {
+	background-image: url(../images/project2/d-bg-project2.jpg);
+}
+
+#project3 {
+	background-image: url(../images/project3/d-bg-project3.jpg);
+}
+
+#project4 {
+	background-image: url(../images/project4/d-bg-project4.jpg);
+}
+
+#project5 {
+	background-image: url(../images/project5/d-bg-project5.jpg);
+}
+
+#project6 {
+	background-image: url(../images/project6/d-bg-project6.jpg);
+}
+
+#project7 {
+	background-image: url(../images/project7/d-bg-project7.jpg);
+}
+
+#project8 {
+	background-image: url(../images/project8/d-bg-project8.jpg);
+}
+
+
+#viewmorebutton {
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	margin-top: px;
+	background-color: #F23D43;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-transform: uppercase;
+		color: #fff;
+	border-radius: 30px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#viewmorebutton:hover {
+	background-color: #D9363C;
+	color: #fff;
+}
+
+#viewmorebutton a {
+	color: #fff;
+}
+
+.featurecontentwrapper{
+max-width: 1200px;
+margin: auto;
+width: 90%;
+}
+
+/*MESSAGE*/
+
+#bigmessage {
+	display: inline-block;
+	margin-bottom: -50px;
+	width: 384px;
+	line-height: 69px;
+	margin-right: 5%;
+	margin-top: 100px;
+}
+
+#smallmessage {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #ebebeb;
+	font-weight: 500;
+	width: 214px;
+	line-height: 1.3em;
+	margin-left: 4px;
+}
+
+.messagewrapper {
+	float: left;
+	margin-top: 88px;
+	width: 90%;
+	max-width: 1200px;
+	max-width: 400px;
+}
+
+/*IMAGE*/
+
+.desktopimg {
+	background-image: url(../images/d-featureimg.png);
+	background-repeat: no-repeat;
+	height: 353px;
+	display: inline;
+	float: left;
+	width: 40%;
+	margin-top: 75px;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-position: center center;
+}
+
+/*LOWERSECTION*/
+
+.lowersection {
+	background-repeat: repeat;
+	padding-top: 70px;
+	border-top: 1px solid #FFFFFF;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	width: auto;
+	-moz-box-shadow: 0 0 8px hsla(0,0%,0%,0.25);
+	box-shadow: 0 0 8px hsla(0,0%,0%,0.25);
+	background-color: #fff;
+}
+
+#projectid {
+	width: 50%;
+	display: inline-table;
+	float: right;
+	margin-top: 218px;
+	max-width: 500px;
+	margin-right: 100px;
+	-webkit-animation-delay: 0.5s;
+	   -moz-animation-delay: 0.5s;
+	    -ms-animation-delay: 0.5s;
+	     -o-animation-delay: 0.5s;
+	        animation-delay: 0.5s;
+	}
+	
+#projectid a {
+	color: #fff;
+	font-weight: ;
+}
+
+.cardinfo {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(236, 240, 241,0.2);
+	border-top: 1px solid hsla(0,0%,0%,0.20);
+	border-right: 1px solid hsla(0,0%,0%,0.1);
+	border-left: 1px solid hsla(0,0%,0%,0.1);
+	border-bottom: 1px solid hsla(0,0%,0%,0.1);
+	border-radius: 3px;
+	border-style: solid;
+	padding-left: 21px;
+	padding-right: 21px;
+	max-width: 856px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -8px;
+}
+
+
+/*PORTFOLIO GALLERY*/
+
+.contentwrapper {
+	width: 90%;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.infowrapper {
+	padding-bottom: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 50px;
+	width: 90%;
+	max-width: 1200px;
+	width: auto;
+}
+
+.infoblock {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+.cardsmargin {
+	max-width: 1200px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cardswrapper{
+	margin: auto;
+	display: inline;
+	width: 144%;
+	text-align: center;
+}
+
+.imggallery {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+	max-width: 900px;
+	overflow-y: scroll;
+}
+	
+	
+/*NAVIGATION FOOTER*/
+
+
+/*MORE PROJECTS*/
+.viewmore {
+	
+	color: rgba(23, 25, 31, 0.4);
+	font: italic 38px "Proxima Nova";
+	text-align: left;
+	width: 90%;
+	max-width: 1200px;
+	top: 7px;
+	padding-bottom: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	
+}
+
+#browse_menu {
+	width: auto;
+	
+}
+
+#browse_wrapper {
+	margin: auto;
+	display: run-in;
+	height: auto;
+	
+
+}
+
+.viewmorecard {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 260px;
+	width: 50%;
+	max-width: 1200px;
+	display: block;
+	float: left;
+	
+}
+
+.viewmoreleft {
+	float: right;
+	width: 80%;
+	min-width: 300px;
+	margin-top: 40px;
+	margin-right: 90px;
+	position: relative;
+}
+
+.viewmoreright {
+float: left;
+max-width: 600px;
+margin-left: 60px;
+margin-top: 40px;
+
+}
+
+.viewmorecard h3 {
+	font-size: 2.5em;
+	color: #ffffff;
+	margin-left: 20px;
+	display: inline;
+	background-color: rgba(245, 60, 66, 0.6);
+	border-bottom: 4px solid #F23D43;
+	padding: 14px;
+	width: 100%;
+	position: relative;
+	top: 40px;
+}
+
+.viewmorecard p {
+	font-size: 1.3em;
+	color: #ffffff;
+	opacity: 0.7;
+	
+	margin-left: 20px;
+	position: relative;
+	margin-top: 70px;
+}	
+
+#project1.viewmorecard {
+	background-image: url(../images/project1/d-bg-project1.jpg);
+}
+
+#project2.viewmorecard {
+	background-image: url(../images/project2/d-bg-project2.jpg);
+}
+
+#project3.viewmorecard {
+	background-image: url(../images/project3/d-bg-project3.jpg);
+}
+
+#project4.viewmorecard {
+	background-image: url(../images/project4/d-bg-project4.jpg);
+}
+
+#project5.viewmorecard {
+	background-image: url(../images/project5/d-bg-project5.jpg);
+}
+
+#project6.viewmorecard {
+	background-image: url(../images/project6/d-bg-project6.jpg);
+}
+
+#project7.viewmorecard {
+	background-image: url(../images/project7/d-bg-project7.jpg);
+}
+
+#project8.viewmorecard {
+	background-image: url(../images/project8/d-bg-project8.jpg);
+}
+
+#project8.viewmorecard {
+	background-image: url(../images/project8/d-bg-project8.jpg);
+}
+
+@media screen and (min-width: 1350px)
+{
+
+.viewmoreleft {
+	float: right;
+	position: static;
+	width: 500px;
+	margin-right: 120px;
+	
+	}
+
+}

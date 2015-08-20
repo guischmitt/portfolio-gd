@@ -1,0 +1,344 @@
+@charset "UTF-8";
+
+/* Layout Small Screens */
+
+body {
+	margin: auto;
+}
+
+/*TEXT*/
+
+h1 {
+	font-size: 3.0em;
+	font-family: "Proxima Nova";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+	margin-bottom: 45px;
+	line-height: 50px;
+	margin-top: 45px;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: "Proxima Nova";
+	font-weight: 400;
+	margin-bottom: 10px;
+	color: hsla(0,0%,100%,0.85);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	top: 10%;
+}
+
+h3 {
+	font-size: 16px;
+	font-family: "Proxima Nova";
+	font-weight: normal;
+color: rgba(127, 140, 141,1.0);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	font-size: 14px;
+	font-family: "Proxima Nova";
+	color: hsla(0,0%,100%,0.70);
+	font-weight: regular;
+	text-shadow: 0px 1px hsla(0,0%,0%,0.30);
+	line-height: 25px;
+}
+
+
+/*MAIN IMAGE*/
+.mainfeature {	
+	background-size: cover;
+	background-position: center bottom;
+	padding-bottom: 35px;
+}
+
+#project0 {
+	background-image: url(../images/projectmisc/d-bg-project0.jpg);
+}
+
+#project1 {
+	background-image: url(../images/project1/d-bg-project1.jpg);
+	margin-top: 0px;
+}
+
+#project2 {
+	background-image: url(../images/project2/d-bg-project2.jpg);
+}
+
+#project3 {
+	background-image: url(../images/project3/d-bg-project3.jpg);
+}
+
+#project4 {
+	background-image: url(../images/project4/d-bg-project4.jpg);
+}
+
+#project5 {
+	background-image: url(../images/project5/d-bg-project5.jpg);
+}
+
+#project6 {
+	background-image: url(../images/project6/d-bg-project6.jpg);
+}
+
+#project7 {
+	background-image: url(../images/project7/d-bg-project7.jpg);
+}
+
+
+/*MESSAGE*/
+
+#bigmessage {
+	display: inline-block;
+	text-align: left;
+	margin-bottom: -30px;
+	margin-top: -25px;
+	width: 90%;
+}
+
+#smallmessage {
+	font-size: 18px;
+	font-family: "Proxima Nova";
+	color: #ebebeb;
+	font-weight: 500;
+	width: 220px;
+	line-height: 1.3em;
+		padding-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.messagewrapper {
+	text-align: center;
+	padding-left: 0%;
+	float: left;
+	padding-top: 50px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+
+
+/*IMG FEATURE*/
+
+.desktopimg {
+	background-image: url(../images/d-featureimg.png);
+	background-repeat: no-repeat;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center top;
+	clear: both;
+	padding-top: 231px;
+	background-size: contain;
+	max-width: 322px;
+}
+
+
+.lowersection {
+	background-color: #fff;
+	background-repeat: repeat;
+	padding-top: 20px;
+	height: auto;
+	border-top: 1px solid #FFFFFF;
+	padding-bottom: 20px;
+}
+
+#projectid {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-animation-delay: 0.5s;
+	   -moz-animation-delay: 0.5s;
+	    -ms-animation-delay: 0.5s;
+	     -o-animation-delay: 0.5s;
+	        animation-delay: 0.5s;
+}
+
+.cardinfo {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -6px;
+	background-color: rgba(236, 240, 241,0.2);
+	border-top: 1px solid hsla(0,0%,0%,0.20);
+	border-right: 1px solid hsla(0,0%,0%,0.1);
+	border-left: 1px solid hsla(0,0%,0%,0.1);
+	border-bottom: 1px solid hsla(0,0%,0%,0.1);
+	border-radius: 3px;
+	width: 89.7%;
+	margin-left: auto;
+	text-align: ;
+	margin-right: auto;
+	display: block;
+}
+
+.cardinfo h3 {
+	width: 90%;
+}
+
+#viewmorebutton {
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	margin: auto;
+	background-color: #F23D43;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-transform: uppercase;
+		color: #fff;
+	border-radius: 30px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#viewmorebutton:hover {
+	background-color: #df393b;
+	color: #fff;
+}
+
+#viewmorebutton a {
+	color: #fff;
+}
+
+
+.infowrapper {
+	text-align: center;
+	margin-top: 10px;
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.infoblock {
+	text-align: center;
+	margin-top: 36px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 65px;
+}
+
+.imggallery {
+	width: 90%;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+a {
+	text-decoration:none;
+}
+
+/*MORE PROJECTS*/
+.viewmore {
+	
+	color: rgba(23, 25, 31, 0.4);
+	font: italic 16px "Proxima Nova";
+	font-size: 32px;
+	text-align: left;
+	top: 7px;
+	padding-bottom: 25px;
+	margin-right: auto;
+	width: 90%;
+	margin-left: auto;
+}
+
+#browse_menu {
+
+}
+
+#browse_wrapper {
+	margin: auto;
+	height: auto;
+
+}
+
+.viewmorecard {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
+	width: 100%;	
+}
+
+.viewmoreleft {
+	width: 90%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.viewmoreright {
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+}
+
+.viewmorecard h3 {
+	font-size: 2em;
+	color: #ffffff;
+	padding-bottom: 10px;
+	border-bottom: 5px solid #F23D43;
+	background-color: rgba(245, 60, 66, 0.6);
+	border-bottom: 4px solid #F23D43;
+	padding: 14px;
+	display: inline;
+	margin-top: 30px;
+	width: 100%;
+	top: 60px;
+	position: relative;
+}
+
+.viewmorecard p {
+	font-size: 1.2em;
+	color: #ffffff;
+	opacity: 0.7;
+	position: relative;
+	top: 80px;
+}	
+
+
+#project1.viewmorecard {
+	background-image: url(../images/project1/d-bg-project1.jpg);
+}
+
+#project2.viewmorecard {
+	background-image: url(../images/project2/d-bg-project2.jpg);
+}
+
+#project3.viewmorecard {
+	background-image: url(../images/project3/d-bg-project3.jpg);
+}
+
+#project4.viewmorecard {
+	background-image: url(../images/project4/d-bg-project4.jpg);
+}
+
+#project5.viewmorecard {
+	background-image: url(../images/project5/d-bg-project5.jpg);
+}
+
+#project6.viewmorecard {
+	background-image: url(../images/project6/d-bg-project6.jpg);
+}
+
+#project7.viewmorecard {
+	background-image: url(../images/project7/d-bg-project7.jpg);
+}
+
+#project8.viewmorecard {
+	background-image: url(../images/project8/d-bg-project8.jpg);
+}
+
+#projectmisc.viewmorecard {
+	background-image: url(../images/project8/d-bg-project8.jpg);
+}
