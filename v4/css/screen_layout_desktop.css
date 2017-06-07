@@ -296,6 +296,8 @@ float: left;
 	box-shadow: 0 2px 15px 2px hsla(0,0%,0%,0.20);
 	border-bottom: 0 none;
 	-webkit-box-shadow: 0 2px 15px 2px hsla(0,0%,0%,0.20);
+	transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
 }
 
 a {

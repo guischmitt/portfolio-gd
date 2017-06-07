@@ -1,0 +1,612 @@
+@charset "UTF-8";
+
+html {
+  overflow: auto; 
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color:#FFFFFF;
+	overflow: hidden;
+	}
+
+/*NAVIGATION OVER*/
+
+
+
+
+h1 {
+	font-size: 4.9em;
+	font-family: "Circular";
+	color: #34495E;
+	font-weight: 100;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: "Circular";
+	font-weight: bold;
+}
+
+p {
+	font-size: 18px;
+	font-family: "Circular";
+	color: #929496;
+	font-weight: regular;
+}
+
+h1 {
+	font-size: 5em;
+	font-family: "Circular";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+}
+
+/*MAIN IMAGE*/
+
+.mainfeature {
+	background-size: cover;
+	height: 85vh;
+	min-height: 900px;
+	max-width: 1600px;
+	width: auto;
+	margin: auto;
+}
+
+/*MESSAGE*/
+
+.bigmessage {
+	display: inline-block;
+	width: auto;
+	margin: auto;
+	float: left;
+}
+
+#hi {
+	width: auto;
+	min-height: 150px;
+	float: left;
+	max-height: 20vh;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#smallmessage {
+	font: 10.4vmin "Circular";
+	font-weight: 500;
+	min-height: 400px;
+	min-width: 700px;
+	color: #74818E;
+	margin-left: -5px;
+	min-height: 300px;
+	max-height: 340px;
+	margin-top: 60px;
+	float: left;
+	-webkit-animation-delay: 0.5s;
+	   -moz-animation-delay: 0.5s;
+	    -ms-animation-delay: 0.5s;
+	     -o-animation-delay: 0.5s;
+	        animation-delay: 0.5s;
+	text-shadow: 0 6px 9px rgba(113, 128, 141, 0.22);
+	clear: left;
+}
+
+
+
+#smallermessage {
+	font: 7.8vmin "Circular";
+	float: left;
+}
+
+.messagewrapper {
+	width: 90%;
+	float: none;
+	margin: auto;
+	min-width: 960px;
+	max-height: 300px;
+	min-height: 200px;
+	position: relative;
+	top: 15vh;
+	clear: both;
+}
+
+.guilherme {
+	display: inline;
+	font-weight: 700;
+	text-shadow: 0 5px 8px rgba(213, 54, 59, 0.26);
+	color: #f13c42;
+}
+
+@media (min-height: 1300px) and (max-width: 800px) {
+
+
+	#smallmessage {
+	font: 68px "Circular";
+	}
+			
+	#smallermessage {
+	font: 52px "Circular";
+	}
+	
+}
+
+
+@media (max-height: 700px) {
+
+	#hi {
+		height: auto;
+	}
+	
+	#messagewrapper {
+		float: none;
+		clear: none;
+	}
+
+
+	#smallmessage {
+		font: 68px "Circular";
+		float: left;
+	}
+			
+	#smallermessage {
+	font: 52px "Circular";
+		float: left;
+	}
+}
+
+/*IMAGE*/
+
+.desktopimg {
+	background-image: url(../images/d-featureimg.png);
+	background-repeat: no-repeat;
+	height: 452px;
+	display: inline;
+	float: right;
+	width: 685px;
+	margin-top: 146px;
+	margin-right: 90px;
+	z-index: 2;
+}
+
+.portfoliobg:hover {
+	background-color: #000;
+	}
+
+.lowersection {
+	background-size: cover;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #21252B;
+	-webkit-box-shadow: 0px 2px 2px 0px hsla(0,0%,0%,0.90);
+	box-shadow: 0px 2px 5px 0px hsla(0,0%,0%,0.90);
+}
+
+.cardsmargin{
+		background-color: rgba(25, 25, 28, 0.46);
+			padding-top: 100px;
+		padding-bottom: 100px;;
+}
+
+.lowerbuttonswrapper {
+	text-align: center;
+	height: auto;
+	margin-top: -52px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+/*PROFILE*/
+
+#profilebg h3 {
+	font-size: 5em;
+	font-family: "Circular";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+	max-width: 1200px;
+	margin: auto;
+	text-align: left;
+	padding-top: 144px;
+}
+
+#profilebg p {
+	font-size: 24px;
+	font-family: "Circular";
+	color: hsla(0,0%,100%,0.70);
+	font-weight: regular;
+	text-align: left;
+	max-width: 1200px;
+	margin: auto;
+	padding-left: 10px;
+	padding-top: 8px;
+}
+
+/*PORTFOLIO START*/
+
+#portfoliobg {
+	background-image: url(../images/d-bg-portfolio.jpg);
+	width: 100%;
+	background-position: center bottom;
+	background-size: cover;
+	height: 250px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	z-index: 1;
+	border-top: 1px solid hsla(0,0%,0%,0.15);
+}
+
+#portfoliobg h3 {
+	font-size: 5em;
+	font-family: "Circular";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 90px;
+}
+
+#portfoliobg p {
+	font-size: 24px;
+	font-family: "Circular";
+	color: hsla(0,0%,100%,0.70);
+	font-weight: regular;
+	text-align: left;
+	width: 90%;
+	max-width: 1200px;
+	margin-top: 700px;
+	margin: auto;
+	padding-left: 10px;
+	padding-top: 8px;
+}
+
+.cardinfo {
+	font: 24px "Circular";
+font-weight: bold;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	color: rgba(255, 255, 255, .45);
+	padding-bottom: 20px;
+text-transform: uppercase;
+text-align: left;
+width: 80%;
+	height: 30px;
+	display: block;
+	float: left;
+	padding-top: 20px;
+}
+
+/*PORTFOLIO END*/
+
+/*CONTACT START*/
+
+.contactbutton {
+	background-image: url(../images/d-contact.png);
+	display: none;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 280px;
+	padding-left: 70px;
+	text-align: center;
+	width: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #fff;
+	/* [disabled]float: left; */
+float: left;
+}
+
+
+
+/*PORTFOLIO GALLERY*/
+
+.infowrapper {
+	padding-bottom: 35px;
+	width: 33%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	text-align: center;
+	overflow: auto;
+}
+
+.infoblock {
+	text-align: center;
+	width: auto;
+	margin: auto;
+}
+
+.cardsmargin {
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cardswrapper{
+	margin: auto;
+	display: block;
+	max-width: 1200px;
+}
+
+.imggallery {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	-webkit-box-shadow: 0px 2px 2px 0px hsla(0,0%,0%,0.20);
+	box-shadow: 0px 2px 2px 0px hsla(0,0%,0%,0.20);
+	display: block;
+	position: relative;
+	vertical-align:top;
+
+}
+
+.imggallery:hover {
+	box-shadow: 0 2px 15px 2px hsla(0,0%,0%,0.20);
+	border-bottom: 0 none;
+	-webkit-box-shadow: 0 2px 15px 2px hsla(0,0%,0%,0.20);
+	transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+}
+
+a {
+	text-decoration:none;
+	border-color: rgba(255, 255, 255, 0.13);
+}
+
+/*PROFILE SECTION*/
+
+.profilelowersection h1 {
+	font-size: 5em;
+	font-family: "Circular";
+	color: rgb( 235, 235, 235 );
+	font-weight: 100;
+}
+
+.profilelowersection h3 {
+	font-size: 18px;
+	font-family: "Circular";
+	font-weight: bold;
+	margin-left: 74px;
+	margin-bottom: -10px;
+	padding-top: 3px;
+	color: #161616;
+}
+
+.profilelowersection p {
+	font-size: 16px;
+	font-family: "Circular";
+	color: #929496;
+	font-weight: regular;
+	margin-left: 75px;
+	line-height: 24px;
+}
+
+
+.profilebigmessage {
+	display: inline-block;
+	margin-bottom: -50px;
+	width: 384px;
+	line-height: 69px;
+	margin-right: 5%;
+	margin-top: 100px;
+}
+
+.profilesmallmessage {
+	font-size: 18px;
+	font-family: "Circular";
+	color: #ebebeb;
+	font-weight: 300;
+	width: 186px;
+	line-height: 1.3em;
+	margin-left: 4px;
+}
+
+.profilemessagewrapper {
+	float: left;
+	margin-top: 120px;
+	width: 30%;
+	padding-left: 12%;
+	margin-left: 7%;
+}
+
+/*IMAGE*/
+
+.profiledesktopimg {
+	background-image: url(../images/d-profileimg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 280px;
+	margin: auto;
+	width: 280px;
+	background-position: center center;
+	display: block;
+	margin-top: 10px;
+	border: 1px solid #fff;
+	border-radius: 250px;
+	background-color: #fff;
+}
+
+#profilebg {
+	background-image: url(../images/d-bg-profile.jpg);
+	width: 100%;
+	background-position: right top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 400px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+
+}
+
+/*LOWERSECTION*/
+
+.profilelowersection {
+	background-repeat: repeat;
+	padding-top: 500px;
+	background-color: #fff;
+	padding-left: 3%;
+	padding-right: 3%;
+	max-width: 1290px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 80px;	
+}
+
+.profileinfowrapper {
+	text-align: center;
+	height: auto;
+	padding-bottom: 35px;
+	margin-top: 90px;
+	width: 20%;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: inline-table;
+}
+
+.profileinfoblock {
+	text-align: left;
+	margin-top: 40px;
+}
+
+.profiletext {
+	margin: auto;
+	width: 90%;
+}
+
+.profilesideinfo {
+	font-size: 18px;
+	font-family: "Circular", 'Helvetica', 'Arial', 'sans-serif';
+	color: #73757A;
+	font-weight: bold;
+	width: 50px;
+	line-height: 1.1em;
+	float: left;
+	margin-top: 4px;
+}
+	
+
+/*ACADEMIC*/
+
+.academicicon {
+	background-image: url(../images/d-academic.png);
+	background-position: center center;
+	width: 100%;
+	height: 108px;
+	background-repeat: no-repeat;
+}
+
+/*PROFILE*/
+
+.profileicon {
+	background-image:url(../images/d-profile.png);
+	background-position:center center;
+	width: 100%;
+	height: 108px;
+	background-repeat:no-repeat;
+}
+
+/*SKILLS*/
+.skillsicon {
+	background-image:url(../images/d-skills.png);
+	background-position:center center;
+	width: 100%;
+	height: 108px;
+	background-repeat:no-repeat;
+}
+
+p.skills {
+	line-height: 30px;
+	margin-left: 120px;
+	
+}
+
+
+/*WORK*/
+.workicon {
+	background-image:url(../images/d-work.png);
+	background-position:center center;
+	width: 100%;
+	height: 108px;
+	background-repeat:no-repeat;
+}
+
+/*RESUME*/
+.resumewrapper {
+	height: auto;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+	width: 49%;
+}
+
+.resumeicon {
+	background-image: url(../images/d-resumeimg.png);
+	background-repeat: no-repeat;
+	color: rgba(243,74,77,1.00);
+	background-position: left top;
+	background-size: contain;
+	padding-top: 45px;
+	margin-top: 6px;
+	width: 370px;
+	height: 94px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.blogicon {
+	background-image: url(../images/d-blogimg.png);
+	background-repeat: no-repeat;
+	color: rgba(243,74,77,1.00);
+	background-position: left top;
+	background-size: contain;
+	padding-top: 45px;
+	margin-top: 6px;
+	width: 370px;
+	height: 94px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.resumeinfo {
+	margin-left: 50px;
+	font-size: 18px;
+	font-family: "Circular", 'Helvetica', 'Arial', 'sans-serif';
+	color: #73757A;
+	font-weight: bold;
+	line-height: 1.1em;
+	margin-bottom: -10px;
+	text-align: left;
+	padding-left: 108px;
+}
+
+h3.resumelink {
+	font-size: 20px;
+	text-align: left;
+	padding-left: 84px;
+	color: rgba(243,74,77,1.00);	
+}
+
+
+/*
+CSS for high-resolution devices
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .profilebutton {
+	background-image: url(../images/d-profileimg@2x.png);
+	background-size: 157px 158px;
+}
+
+*/
